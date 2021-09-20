@@ -1,7 +1,7 @@
 # Flutter UI Templates
 Useful Flutter UI Templates
 
-<img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/simulator_screenshot_056E0EB5-3A5E-40DF-B177-65FD46D0B26D.png" alt="Image of Flutter UI Templates" width="250"/>
+<img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot.png" alt="Image of Flutter UI Templates" width="250"/>
 
 Template Type | Status
 ------------ | -------------
