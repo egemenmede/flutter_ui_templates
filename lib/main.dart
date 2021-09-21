@@ -1,11 +1,11 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_templates/utilities/consts/my_consts.dart';
-import 'package:flutter_ui_templates/widget/material_button_box.dart';
-
-import 'animation/manage_route_animation.dart';
 import 'pages/signin/signin_page.dart';
+import 'pages/signup/signup_page.dart';
+import 'utilities/consts/my_consts.dart';
+import 'widget/material_button_box.dart';
+import 'animation/manage_route_animation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -62,12 +62,27 @@ class _MyHomePageState extends State<MyHomePage> {
           // Important: Remove any padding from the ListView.
           padding: EdgeInsets.zero,
           children: [
-            const DrawerHeader(
-              decoration: BoxDecoration(
+            DrawerHeader(
+              decoration: const BoxDecoration(
                 color: MyConsts.specificBlueValue,
               ),
               child:
-                  Text(MyConsts.appTitle, style: TextStyle(color: Colors.white)),
+                Stack(
+                  children: [
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(10.0),
+                      child: Image.asset("assets/images/app_home_banner.png"),
+                    ),
+                    Positioned(
+                      right: 20.0,
+                      top: 10.0,
+                      child: SizedBox(
+                        width: MediaQuery.of(context).size.width/5,
+                        child: Image.asset("assets/images/flutter_logo.png"),
+                      ),
+                    ),
+                  ],
+                ),
             ),
             ListTile(
               title: const Text(MyConsts.aboutTheApp),
@@ -89,10 +104,12 @@ class _MyHomePageState extends State<MyHomePage> {
               Stack(
                 children: [
                   Image.asset("assets/images/app_home_banner.png"),
+
                   Positioned(
-                    right: 40.0,
+                    right: 20.0,
                     top: 10.0,
-                    child: SizedBox(
+                    child:
+                    SizedBox(
                       width: MediaQuery.of(context).size.width/5,
                         child: Image.asset("assets/images/flutter_logo.png"),
                     ),
@@ -132,7 +149,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       Colors.primaries[Random().nextInt(Colors.primaries.length)],
                   pText: MyConsts.btnTextSignUp,
                   pressAction: () {
-                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text(MyConsts.msgTextUnderConstruction)));
+                    Navigator.push(context, ManageRouteAnimation(page: const SignUpPage()));
                   }),
               MaterialButtonBox(
                   pColor:

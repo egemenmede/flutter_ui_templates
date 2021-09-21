@@ -44,6 +44,15 @@ class MyConsts {
   static const String loginDontAccountText = "Don't have an account? ";
   static const String loginSignupText = "Sign up!";
 
+  // Sign Up - Text
+  static const String signUpButtonText = "Sign up";
+  static const String signUpEmailText = "Email";
+  static const String signUpPasswordText = "Password";
+  static const String signUpConfirmPasswordText = "Confirm Password";
+  static const String signUpOrText = "Sign up with";
+  static const String signUpAlreadyAccountText = "Already have an account? ";
+  static const String signUpText = "Sign in!";
+
   // Dashboard Text
   static const String dashLoginText = "Login Example";
   static const String templateTypesText = "Template Types";
