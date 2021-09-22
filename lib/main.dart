@@ -1,6 +1,8 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_templates/pages/splash/splash_page.dart';
+import 'package:flutter_ui_templates/utilities/splash/splash.dart';
 import 'pages/signin/signin_page.dart';
 import 'pages/signup/signup_page.dart';
 import 'utilities/consts/my_consts.dart';
@@ -16,6 +18,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    /*
     return MaterialApp(
       title: MyConsts.appTitle,
       debugShowCheckedModeBanner: false,
@@ -25,13 +28,33 @@ class MyApp extends StatelessWidget {
       ),
       home: const MyHomePage(title: MyConsts.appTitle),
     );
+     */
+    return FutureBuilder(
+      future: Init.instance.initialize(),
+      builder: (context, AsyncSnapshot snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return const MaterialApp(home: Splash());
+        } else {
+          // Loading is done, return the app:
+          return MaterialApp(
+            title: MyConsts.appTitle,
+            debugShowCheckedModeBanner: false,
+            theme: ThemeData(
+              primarySwatch: MyConsts.mymaterialpalette,
+              scaffoldBackgroundColor: Colors.white,
+            ),
+            home: const MyHomePage(),
+          );
+        }
+      },
+    );
+
+
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key, required this.title}) : super(key: key);
-
-  final String title;
+  const MyHomePage({Key? key}) : super(key: key);
 
   @override
   _MyHomePageState createState() => _MyHomePageState();
@@ -156,7 +179,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       Colors.primaries[Random().nextInt(Colors.primaries.length)],
                   pText: MyConsts.btnTextSplashScreen,
                   pressAction: () {
-                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text(MyConsts.msgTextUnderConstruction)));
+                    Navigator.push(context, ManageRouteAnimation(page: const SplashPage()));
                   }),
               MaterialButtonBox(
                   pColor:
@@ -188,5 +211,17 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
     );
+  }
+}
+
+class Init {
+  Init._();
+  static final instance = Init._();
+
+  Future initialize() async {
+    // This is where you can initialize the resources needed by your app while
+    // the splash screen is displayed.  Remove the following example because
+    // delaying the user experience is a bad design practice!
+    await Future.delayed(const Duration(seconds: 3));
   }
 }

@@ -53,6 +53,9 @@ class MyConsts {
   static const String signUpAlreadyAccountText = "Already have an account? ";
   static const String signUpText = "Sign in!";
 
+  // SplashScreen - Login Text
+  static const String sSshowButtonText = "Show Splash Screen";
+
   // Dashboard Text
   static const String dashLoginText = "Login Example";
   static const String templateTypesText = "Template Types";
@@ -69,6 +72,7 @@ class MyConsts {
 
   // App
   static const String appTitle = "Flutter UI Templates";
+  static const String appBackButton = "Back";
 
   // Drawer
   static const String aboutTheApp = "About the App";
