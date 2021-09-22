@@ -1,14 +1,14 @@
 # Flutter UI Templates
 Useful Flutter UI Templates
 
-<img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot.png" alt="Image of Flutter UI Templates" width="250"/>
-
-<img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_SignIn.png" alt="Image of Sign In" width="250"/>
+| <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot.png" alt="Image of Flutter UI Templates" width="250"/> | <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_SignIn.png" alt="Image of Sign In" width="250"/> |<img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_SignUp.png" alt="Image of Sign In" width="250"/> |
+|:---:|:---:|:---:|
+| App Main Page | Sign In | Sign Up |
 
 Template Type | Status
 ------------ | -------------
 Sign In | OK
-Sign Up | The under construction
+Sign Up | OK
 Splash Screen | The under construction
 Onboarding | The under construction
 App Settings | The under construction
@@ -16,7 +16,11 @@ User Profile | The under construction
 Home Page | The under construction
 Product Details | The under construction
 
-## Getting Started
+## Bug or Requests
+
+If you encounter any problems feel free to open an [issue](https://github.com/egemenmede/flutter_ui_templates/issues/new?template=bug_report.md). If you feel the library is missing a feature, please raise a [ticket](https://github.com/egemenmede/flutter_ui_templates/issues/new?template=feature_request.md). Pull request are also welcome.
+
+## EXTRA - Getting Started For Flutter
 
 This project is a starting point for a Flutter application.
 
