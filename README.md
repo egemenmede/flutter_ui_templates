@@ -20,6 +20,11 @@ User Profile | TODO
 Home Page | TODO
 Product Details | TODO
 
+## Notes
+
+* **Splash Screen**
+  * [flutter_native_splash](https://pub.dev/packages/flutter_native_splash) package was used for splash screen display. You can visit the website for details.
+
 ## Bug or Requests
 
 If you encounter any problems feel free to open an [issue](https://github.com/egemenmede/flutter_ui_templates/issues/new?template=bug_report.md). If you feel the library is missing a feature, please raise a [ticket](https://github.com/egemenmede/flutter_ui_templates/issues/new?template=feature_request.md). Pull request are also welcome.
