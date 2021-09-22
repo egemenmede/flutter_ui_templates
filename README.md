@@ -16,7 +16,11 @@ User Profile | The under construction
 Home Page | The under construction
 Product Details | The under construction
 
-## Getting Started For Flutter
+## Bug or Requests
+
+If you encounter any problems feel free to open an [issue](https://github.com/egemenmede/flutter_ui_templates/issues/new?template=bug_report.md). If you feel the library is missing a feature, please raise a [ticket](https://github.com/egemenmede/flutter_ui_templates/issues/new?template=feature_request.md). Pull request are also welcome.
+
+## EXTRA - Getting Started For Flutter
 
 This project is a starting point for a Flutter application.
 
@@ -28,7 +32,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-
-## Bug or Requests
-
-If you encounter any problems feel free to open an [issue](https://github.com/egemenmede/flutter_ui_templates/issues/new?template=bug_report.md). If you feel the library is missing a feature, please raise a [ticket](https://github.com/egemenmede/flutter_ui_templates/issues/new?template=feature_request.md). Pull request are also welcome.
