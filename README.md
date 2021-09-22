@@ -8,7 +8,7 @@ Useful Flutter UI Templates
 Template Type | Status
 ------------ | -------------
 Sign In | OK
-Sign Up | The under construction
+Sign Up | OK
 Splash Screen | The under construction
 Onboarding | The under construction
 App Settings | The under construction
