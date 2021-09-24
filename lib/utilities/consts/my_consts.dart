@@ -53,8 +53,14 @@ class MyConsts {
   static const String signUpAlreadyAccountText = "Already have an account? ";
   static const String signUpText = "Sign in!";
 
-  // SplashScreen - Login Text
+  // SplashScreen - Show Text
   static const String sSshowButtonText = "Show Splash Screen";
+
+  // Onboarding - Show Text
+  static const String onboardingShowButtonText = "Show Onboarding";
+  static const String onboardingSkipText = "SKIP";
+  static const String onboardingNextText = "NEXT";
+  static const String onboardingGotItText = "GOT IT";
 
   // Dashboard Text
   static const String dashLoginText = "Login Example";

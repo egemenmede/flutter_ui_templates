@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_templates/pages/onboarding/onboarding_page.dart';
 import 'package:flutter_ui_templates/pages/splash/splash_page.dart';
 import 'package:flutter_ui_templates/utilities/splash/splash.dart';
 import 'pages/signin/signin_page.dart';
@@ -185,7 +186,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   pColor:
                       Colors.primaries[Random().nextInt(Colors.primaries.length)],
                 pText: MyConsts.btnTextOnboarding,
-              ),
+                  pressAction: () {
+                    Navigator.push(context, ManageRouteAnimation(page: const OnboardingPage()));
+                  }),
               MaterialButtonBox(
                   pColor:
                       Colors.primaries[Random().nextInt(Colors.primaries.length)],
