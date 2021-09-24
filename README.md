@@ -5,16 +5,16 @@ Useful Flutter UI Templates
 |:---:|:---:|:---:|
 | App Main Page | Sign In | Sign Up |
 
-| <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_Splash.png" alt="Image of Splash Screen" width="250"/> | 
-|:---:|
-| Splash Screen |
+| <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_Splash.png" alt="Image of Splash Screen" width="250"/> | <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_Onboarding.png" alt="Image of Splash Screen" width="250"/> | 
+|:---:|:---:|
+| Splash Screen | Onboarding |
 
 Template Type | Status
 ------------ | -------------
 Sign In | OK
 Sign Up | OK
 Splash Screen | OK
-Onboarding | TODO
+Onboarding | OK
 App Settings | TODO
 User Profile | TODO
 Home Page | TODO
