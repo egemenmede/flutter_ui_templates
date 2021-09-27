@@ -15,7 +15,7 @@ Sign In | OK
 Sign Up | OK
 Splash Screen | OK
 Onboarding | OK
-App Settings | TODO
+App Settings | Continues
 User Profile | TODO
 Home Page | TODO
 Product Details | TODO
