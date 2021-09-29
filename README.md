@@ -15,8 +15,8 @@ Sign In | OK
 Sign Up | OK
 Splash Screen | OK
 Onboarding | OK
-App Settings | Continues
-User Profile | TODO
+App Settings | OK
+User Profile | Continues
 Home Page | TODO
 Product Details | TODO
 
@@ -24,6 +24,8 @@ Product Details | TODO
 
 * **Splash Screen**
   * [flutter_native_splash](https://pub.dev/packages/flutter_native_splash) package was used for splash screen display. You can visit the website for details.
+* **App Settings**
+  * [settings_ui](https://pub.dev/packages/settings_ui) package was used for app settings. You can visit the website for details.
 
 ## Bug or Requests
 
