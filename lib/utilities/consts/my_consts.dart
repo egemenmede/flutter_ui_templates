@@ -62,6 +62,9 @@ class MyConsts {
   static const String onboardingNextText = "NEXT";
   static const String onboardingGotItText = "GOT IT";
 
+  // App Settings - Show Text
+  static const String appsettingsShowButtonText = "Show App Settings";
+
   // Dashboard Text
   static const String dashLoginText = "Login Example";
   static const String templateTypesText = "Template Types";
