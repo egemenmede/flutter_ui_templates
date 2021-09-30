@@ -5,9 +5,9 @@ Useful Flutter UI Templates
 |:---:|:---:|:---:|
 | App Main Page | Sign In | Sign Up |
 
-| <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_Splash.png" alt="Image of Splash Screen" width="250"/> | <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_Onboarding.png" alt="Image of Splash Screen" width="250"/> | 
-|:---:|:---:|
-| Splash Screen | Onboarding |
+| <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_Splash.png" alt="Image of Splash Screen" width="250"/> | <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_Onboarding.png" alt="Image of Splash Screen" width="250"/> | <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_AppSettings.png" alt="Image of App Settings" width="250"/> 
+|:---:|:---:|:---:|
+| Splash Screen | Onboarding | App Settings |
 
 Template Type | Status
 ------------ | -------------
