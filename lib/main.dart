@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ui_templates/pages/appsettings/appsettings_page.dart';
 import 'package:flutter_ui_templates/pages/onboarding/onboarding_page.dart';
 import 'package:flutter_ui_templates/pages/splash/splash_page.dart';
+import 'package:flutter_ui_templates/pages/userprofile/userprofile_page.dart';
 import 'package:flutter_ui_templates/utilities/splash/splash.dart';
 import 'pages/signin/signin_page.dart';
 import 'pages/signup/signup_page.dart';
@@ -201,17 +202,23 @@ class _MyHomePageState extends State<MyHomePage> {
                   pColor:
                       Colors.primaries[Random().nextInt(Colors.primaries.length)],
                 pText: MyConsts.btnTextUserProfile,
-              ),
+                  pressAction: () {
+                    Navigator.push(context, ManageRouteAnimation(page: const UserProfilePage()));
+                  }),
               MaterialButtonBox(
                   pColor:
                       Colors.primaries[Random().nextInt(Colors.primaries.length)],
                 pText: MyConsts.btnTextHomePage,
-              ),
+                  pressAction: () {
+                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text(MyConsts.msgTextUnderConstruction)));
+                  }),
               MaterialButtonBox(
                   pColor:
                       Colors.primaries[Random().nextInt(Colors.primaries.length)],
                 pText: MyConsts.btnTextProductDetails,
-              ),
+                  pressAction: () {
+                    ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text(MyConsts.msgTextUnderConstruction)));
+                  }),
             ],
           ),
         ),
