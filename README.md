@@ -43,3 +43,47 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## EXTRA - Contributing Guidelines
+
+#### Steps
+
+#### 1. Fork [this](https://github.com/egemenmede/flutter_ui_templates) repository.
+
+#### 2. Clone the forked repository.
+
+```bash
+git clone --depth 1 https://github.com/<your-github-username>/flutter_ui_templates.git
+```
+
+#### 3. Navigate to the project directory.
+
+```bash
+cd flutter_ui_templates
+```
+
+#### 4. Create a new branch.
+
+```bash
+git checkout -b <your_branch_name>
+```
+
+#### 5. Make changes in source code.
+
+#### 6. Commit your changes.
+ 
+```bash
+git commit -m "Message"
+```
+
+#### 7. Push your local branch to the remote repository.
+
+```bash
+git push -u origin <your_branch_name>
+```
+
+#### 8. Create a Pull Request!
+
+Finally, go to your repository in the browser and click on `compare and pull requests`. Then add a title and description to your pull request that explains your precious effort.
+
+click on `Compare and Pull Request`
