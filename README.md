@@ -1,11 +1,11 @@
 # Flutter UI Templates
 Useful Flutter UI Templates
 
-| <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot.png" alt="Image of Flutter UI Templates" width="250"/> | <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_SignIn.png" alt="Image of Sign In" width="250"/> |<img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_SignUp.png" alt="Image of Sign In" width="250"/> |
+| <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/screenshots/ScreenShot.png" alt="Image of Flutter UI Templates" width="250"/> | <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/screenshots/ScreenShot_SignIn.png" alt="Image of Sign In" width="250"/> |<img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/screenshots/ScreenShot_SignUp.png" alt="Image of Sign In" width="250"/> |
 |:---:|:---:|:---:|
 | App Main Page | Sign In | Sign Up |
 
-| <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_Splash.png" alt="Image of Splash Screen" width="250"/> | <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_Onboarding.png" alt="Image of Splash Screen" width="250"/> | <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/ScreenShot_AppSettings.png" alt="Image of App Settings" width="250"/> 
+| <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/screenshots/ScreenShot_Splash.png" alt="Image of Splash Screen" width="250"/> | <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/screenshots/ScreenShot_Onboarding.png" alt="Image of Splash Screen" width="250"/> | <img src="https://github.com/egemenmede/flutter_ui_templates/blob/main/screenshots/ScreenShot_AppSettings.png" alt="Image of App Settings" width="250"/> 
 |:---:|:---:|:---:|
 | Splash Screen | Onboarding | App Settings |
 
