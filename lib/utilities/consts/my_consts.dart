@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class MyConsts {
   // ------------------------ FONT/STYLE ------------------------
   static String defaultFontFamily = 'Roboto-Light.ttf';
   static double defaultFontSize = 14;
   static double defaultIconSize = 17;
-  static TextStyle myTextStyle = TextStyle(fontFamily: defaultFontFamily, fontSize: defaultFontSize);
+  static TextStyle myTextStyle =
+      TextStyle(fontFamily: defaultFontFamily, fontSize: defaultFontSize);
 
   // ------------------------ CUSTOM MATERIAL PALETTE ------------------------
-  static const MaterialColor mymaterialpalette = MaterialColor(_mymaterialpalettePrimaryValue, <int, Color>{
+  static const MaterialColor mymaterialpalette =
+      MaterialColor(_mymaterialpalettePrimaryValue, <int, Color>{
     50: Color(0xFFE5E5E8),
     100: Color(0xFFBDBDC6),
     200: Color(0xFF9292A0),
@@ -23,7 +24,8 @@ class MyConsts {
   });
   static const int _mymaterialpalettePrimaryValue = 0xFF242441;
 
-  static const MaterialColor mymaterialpaletteAccent = MaterialColor(_mymaterialpaletteAccentValue, <int, Color>{
+  static const MaterialColor mymaterialpaletteAccent =
+      MaterialColor(_mymaterialpaletteAccentValue, <int, Color>{
     100: Color(0xFF5E5EFF),
     200: Color(_mymaterialpaletteAccentValue),
     400: Color(0xFF0000F7),

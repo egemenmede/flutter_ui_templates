@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui_templates/utilities/consts/my_consts.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class UserProfilePage extends StatefulWidget {
   const UserProfilePage({Key? key}) : super(key: key);
@@ -29,10 +27,10 @@ class _UserProfilePageState extends State<UserProfilePage> {
                   Container(
                     width: MediaQuery.of(context).size.width,
                     color: const Color(0xFFF58220),
-                    child: Padding(
-                      padding: const EdgeInsets.all(16.0),
+                    child: const Padding(
+                      padding: EdgeInsets.all(16.0),
                       child: Column(
-                        children: const [
+                        children: [
                           SizedBox(
                             height: 150,
                             child: FittedBox(
